@@ -42,7 +42,7 @@ jobs:
           sudo -E apt-get -y autoremove --purge
           sudo -E apt-get clean
 
-          df -h
+          df -h 
 
       - name: Update feeds
         run: |
